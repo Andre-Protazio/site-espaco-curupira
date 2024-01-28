@@ -1,0 +1,36 @@
+@media (max-width: 1200px){
+    .cabecalho{
+        padding: 5%;        
+    }
+    
+    .cabecalho__menu{
+        width: auto;
+        justify-content: center;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        gap: 24px;  
+        padding: 5%;    
+    }
+
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .apresentacao__conteudo__texto{
+        flex-direction: column-reverse;     
+        gap: 18px;
+        padding: 2%;
+
+    }
+
+    .apresentacao__logo__maloca, .apresentacao__logo{
+        width: 50%;
+    }
+
+    .apresentacao__conteudo__texto__projeto_botao{
+        width: auto;
+    }
+
+}
